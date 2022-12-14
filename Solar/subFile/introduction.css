@@ -1,0 +1,50 @@
+body {
+    background: url("/planetImages/introd_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.intro_container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro_card {
+    background-color: #fff;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    height: 250px;
+    width: 250px;
+}
+
+.pagetitle {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+
+.img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.card_details {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: flex-end;
+    margin: 10px 20px 10px 25px;
+}
+
+.LEARN_MORE_button {
+    padding: 5px;
+    background-color: rgb(125, 125, 188);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+}

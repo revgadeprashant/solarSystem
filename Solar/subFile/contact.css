@@ -1,0 +1,87 @@
+body {
+    background: url('/planetImages/contact_bg.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+
+.detailcontainer {
+    color: white;
+    display: inline-block;
+    width: 23%;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.detailcontainer h1 {
+    font-size: 45px;
+    border-bottom: 4px solid rgb(89, 194, 159);
+}
+
+p {
+    font-size: 20px;
+}
+
+.contact {
+    color: white;
+    background: none;
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 55%;
+}
+
+.contact.inputBox i {
+    width: 95%;
+    font-weight: bold;
+    color: rgb(89, 194, 159);
+    border-bottom: 3px solid rgb(89, 194, 159);
+    border-top: none;
+}
+
+.inputBox {
+    padding: 10px;
+    margin: 4px;
+    background: none;
+    outline: none;
+}
+
+.inputBox input {
+    font-size: 15px;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid rgb(89, 194, 159);
+    border-right: none;
+}
+
+.inputBox textarea {
+    font-size: 20px;
+    background: none;
+    color: white;
+    border: 1px solid rgb(89, 194, 159);
+    ;
+}
+
+.inputBtn input {
+    font-weight: bold;
+    border: 2px solid rgb(89, 194, 159);
+    color: white;
+    display: inline-block;
+    background: none;
+    padding: 10px;
+    width: 95px;
+    border-radius: 16px;
+}
+
+.inputBtn input:hover {
+    background-color: rgb(89, 194, 159);
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.details {
+    border-bottom: 2px solid rgb(89, 194, 159);
+    margin-bottom: 15px;
+    font-size: 30px;
+}

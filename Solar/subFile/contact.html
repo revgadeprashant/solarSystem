@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/design.css">
+    <link rel="stylesheet" href="/style.css">
+
+
+    <link rel="stylesheet" href="contact.css">
+
+
+    <script src="https://kit.fontawesome.com/d2901a46a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="banner">
+
+        <nav>
+            <ul>
+                <li class="brand"><img src="/planetImages/logo_bg.png" alt="logo"><a href="/index.html"><i class="fa-solid fa-house"></i> Solar System</a></li>
+                <li><a href="/subFile/introduction.html"><i class="fa-solid fa-circle"></i> Planets</a></li>
+                </li>
+                <li><a href="about.html"><i class="fa-solid fa-users"></i> About Us</a></li>
+                <li><i class="fa-solid fa-envelope"></i> Contact Us</li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="detailcontainer">
+        <h1>Contact us</h1><br>
+        <p class="contactpara">
+            Need to get in touch with us? Fill out the given form we will contact you as soon as possible - Thanks and regards
+        </p>
+    </div>
+    <div class="contact">
+        <h3 class="details">Contact Details</h3>
+        <form action="Submit" method="post">
+            <div class="inputBox">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" name="clientName" id="clientName" placeholder="Enter your Name" style="color: aliceblue;">
+            </div>
+            <div class="inputBox">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="text" name="clientMail" id="clientMail" placeholder="Enter your Email">
+            </div>
+            <div class="inputBox">
+                <textarea name="msg" id="feedback" cols="24" rows="4" placeholder="what can we help you with?"></textarea>
+            </div>
+            <div class="inputBtn">
+                <input type="button" value="Submit" onclick="validateEmail(clientMail,clientName,feedback)">
+            </div>
+        </form>
+    </div>
+    <section class="footer">
+        <div class="follow">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a> Follow us
+        </div>
+    </section>
+
+</body>
+<script src="contact_validate.js"></script>
+
+</html>

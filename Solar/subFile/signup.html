@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://kit.fontawesome.com/d2901a46a8.js" crossorigin="anonymous"></script>
+    <script src="login_validate.js"></script>
+    <script src="signup_validate.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+    <div class="home">
+        <a href="/index.html"> <img src="/planetImages/logo_bg.png" alt="logo" style="cursor:pointer" class="img"><span class="homebtn"> Home</span> </a>
+    </div>
+    <div class="container">
+        <h1>LoveFist</h1>
+        <div>
+            What's Your Email?<br><br>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" id="createMail" placeholder="Enter your Email">
+        </div>
+        <div>
+            Create a Password :<br>
+            <i class="fa-sharp fa-solid fa-key"></i>
+            <input type="password" id="createPass" placeholder="Create a Password">
+        </div>
+        <div>
+            What Should we call you :<br>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="profileName" placeholder="Enter your Profile Name">
+        </div>
+        <div>
+            What's your date of birth:<br>
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" id="dbdate">
+        </div>
+        <!-- onclick="signupValidate(createMail,createPass,profileName,dbdate)" -->
+        <div>
+            <input type="button" value="Sign up" class="btn" onclick="signupValidate(createMail,createPass,profileName,dbdate)">
+        </div>
+        <div>
+            Have an account ? <a href="/subFile/signin.html" class="link">Log in</a>
+        </div>
+
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>

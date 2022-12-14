@@ -1,0 +1,29 @@
+.mercury_detail {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.MDCsRruzss7gIWyM4pFBfQHaEc&pid=Api&P=0');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.mercury_heading {
+    text-align: center;
+    color: #fff;
+    /* font-size: larger; */
+    font-weight: 900;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.mercury_p {
+    font-weight: bold;
+    color: #fff;
+    margin: 40px;
+}
+
+.back_button {
+    margin: 10px 0 0 20px;
+    padding: 2px 5px 2px 5px;
+}

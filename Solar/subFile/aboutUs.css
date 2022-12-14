@@ -1,0 +1,30 @@
+body {
+    background: url('/planetImages/about_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: white;
+    border-bottom: 2px solid aquamarine;
+}
+
+p {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    color: white;
+    width: 75%;
+    font-size: 17px;
+}
+
+.aboutpara {
+    border: 2px solid white;
+    width: 45%;
+    position: absolute;
+    left: 45%;
+}
